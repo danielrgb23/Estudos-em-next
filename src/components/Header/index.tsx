@@ -1,4 +1,4 @@
-import { SigninButtom } from '../SigninButtom'
+import  SigninButtom  from '../SigninButtom'
 import styles from './styles.module.scss'
 
 export function Header(){
