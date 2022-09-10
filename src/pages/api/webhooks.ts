@@ -28,7 +28,7 @@ const relevantEvents = new Set([
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default async (req: NextApiRequest, res: NextApiResponse) => {
- if(req.method === 'POST') {
+ if (req.method === 'POST') {
   const buf = await buffer(req)
   const secret = req.headers['stripe-signature']
 
@@ -36,18 +36,27 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   try {
    event = stripe.webhooks.constructEvent(buf, secret, process.env.STRIPE_WEBHOOK_SECRET);
-  } catch(err){
+  } catch (err) {
    return res.status(400).send(`Webhook error: ${err.message}`);
   }
 
   const { type } = event;
 
-  if(relevantEvents.has(type)){
-   console.log('Evento recebido', event)
+  if (relevantEvents.has(type)) {
+   try {
+    switch (type) {
+     case 'checkout.session.completed':
+      break;
+     default:
+      throw new Error('Unhandled event.')
+    }
+   } catch (err) {
+    return res.json({ error: 'webhook handle failed' })
+   }
   }
 
   res.json({ received: true })
- }else{
+ } else {
   res.setHeader('Allow', 'POST')
   res.status(405).end('Method not allowed')
  }
