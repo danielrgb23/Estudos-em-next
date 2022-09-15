@@ -1,6 +1,7 @@
 # Comandos
-- $ stripe listen --forward-to localhost:3000/api/webhooks
--> para iniciar o servidor de ações do stripe
+- para iniciar o servidor de ações do stripe
+- $ stripe listen --forward-to localhost:3000/api/webhooks -
 
-- yarn run  slicemachine
--> para iniciar o editor CMS
+
+- para iniciar o editor CMS {Esse é o nosso CMS, utilizamos o prismic}
+- yarn run  slicemachine -
