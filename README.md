@@ -20,7 +20,7 @@
   </a>
 
   <a href="https://github.com/danielrgb23/Estudos-em-next/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/badge/made%20by-danielrgb23-%237519C1">
+    <img alt="GitHub last commit" src="https://img.shields.io/badge/made%20by-khalleb-%237519C1">
   </a>
 
   <img alt="License" src="https://img.shields.io/github/license/danielrgb23/Estudos-em-next">
