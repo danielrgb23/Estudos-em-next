@@ -9,21 +9,21 @@
   <br>
   <br>
 
-  <img alt="Language count" src="https://img.shields.io/github/repo-size/khalleb/ignews"/>
+  <img alt="Language count" src="https://img.shields.io/github/repo-size/danielrgb23/Estudos-em-next"/>
 
   <a href="https://rocketseat.com.br">
     <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1">
   </a>
 
-  <a href="https://www.linkedin.com/in/khalleb/">
-    <img alt="Made by Khalleb" src="https://img.shields.io/badge/made%20by-khalleb-%237519C1">
+  <a href="https://www.linkedin.com//in/daniel-augusto02/">
+    <img alt="Made by Daniel" src="https://www.linkedin.com/in/daniel-augusto02/">
   </a>
 
-  <a href="https://github.com/khalleb/ignews/commits/main">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/khalleb/ignews">
+  <a href="https://github.com/danielrgb23/Estudos-em-next/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/danielrgb23/Estudos-em-next">
   </a>
 
-  <img alt="License" src="https://img.shields.io/github/license/khalleb/ignews">
+  <img alt="License" src="https://img.shields.io/github/license/danielrgb23/Estudos-em-next">
 </p>
 
 ---
