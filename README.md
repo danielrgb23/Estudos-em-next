@@ -72,7 +72,7 @@ As seguintes tecnologias foram utilizadas no projeto:
 $ git clone https://github.com/danielrgb23/Estudos-em-next
 
 # Access
-$ cd ignews
+$ cd Estudos-em-next
 
 # Install dependencies
 $ yarn install
