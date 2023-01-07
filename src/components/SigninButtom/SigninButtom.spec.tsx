@@ -9,7 +9,7 @@ describe('SigninButton component', () => {
 
   const useSessionMocked = jest.mocked(useSession);
 
-  useSessionMocked.mockReturnValueOnce([null, false]);
+  useSessionMocked.mockReturnValueOnce([null, false] as any);
 
   render(
    <SignInButton />

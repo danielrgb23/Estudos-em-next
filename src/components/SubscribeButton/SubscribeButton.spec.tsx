@@ -15,7 +15,7 @@ describe('SubscribeButton component', () => {
 
   const useSessionMocked = jest.mocked(useSession);
 
-  useSessionMocked.mockReturnValueOnce([null, false]);
+  useSessionMocked.mockReturnValueOnce([null, false] as any);
 
   render(<SubscribeButton />)
 
@@ -27,7 +27,7 @@ describe('SubscribeButton component', () => {
   const signInMocked = jest.mocked(signIn)
   const useSessionMocked = jest.mocked(useSession);
 
-  useSessionMocked.mockReturnValueOnce([null, false]);
+  useSessionMocked.mockReturnValueOnce([null, false] as any);
 
   render(<SubscribeButton />)
 
