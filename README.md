@@ -69,10 +69,10 @@ As seguintes tecnologias foram utilizadas no projeto:
 
 ```bash
 # Clone this project
-$ git clone https://github.com/danielrgb23/Estudos-em-next
+$ git clone https://github.com/danielrgb23/Ignews-blog-studi
 
 # Access
-$ cd Estudos-em-next
+$ cd Ignews-blog-studi
 
 # Install dependencies
 $ yarn install
@@ -81,6 +81,24 @@ $ yarn install
 $ yarn dev
 
 # The server will initialize in the <http://localhost:3000>
+
+# Crie um arquivo no diretorio principal
+$ .env.local
+
+# Salvar nessa pastas as seguintes informações
+$ STRIPE_API_KEY = Por seu respectivo id stripe key (pego no site do stripe)
+$ NEXT_PUBLIC_STRIPE_PUBLIC_KEY = Por seu respectivo id stripe public key (pego no site do stripe)
+$ STRIPE_SUCCESS_URL = http://localhost:3000/posts
+$ STRIPE_CANCEL_URL = http://localhost:3000/
+$ STRIPE_WEBHOOK_SECRET = stripe login (ira gerar no terminal o id)
+
+$ PRISMIC_ACESS_TOKEN = id do prismic token
+$ PRISMIC_ENDPOINT = exemplo: https://ignews-danielrgb23.cdn.prismic.io/api/v2 (pego no site prismic)
+
+$ FAUNADB_KEY = Por o id do banco de dados fauna
+
+$ GITHUB_CLIENT_ID = Por o id do github client
+$ GITHUB_CLIENT_SECRET = Por seu respectivo id
 ```
 ## :framed_picture: Imagens ##
 
